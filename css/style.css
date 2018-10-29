@@ -1,0 +1,256 @@
+/*
+author: Ariel Burgos
+*/
+.emoticones{
+    width: 350px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #bfbaba66;
+    height: 60px;
+    border-radius: 50px;
+}
+.emoticones label img{
+    width: 100%;
+}
+.emoticones ul{
+    list-style: none;
+
+}
+.emoticones label{
+    float: left;
+    padding: 2px;
+    width: 14%;
+    position: relative;
+    margin-left: 15px;
+}
+.emoticones label span{
+    width: 22px;
+    font-size: 8px;
+    position: absolute;
+    margin-left: -18px;
+    margin-top: 25px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 100%;
+    height: auto;
+    font-weight: 700;
+}
+.emoticones label:hover{
+    padding: 2px;
+    width: 15% !important;
+}
+
+#nombreEmoticon1, #nombreEmoticon2, #nombreEmoticon3, #nombreEmoticon4, #nombreEmoticon5{
+visibility: hidden;
+    position: relative;
+    top: -90px;
+    border-radius: 20px;
+    padding: 4px;
+    font-size: 10px;
+    text-align: center;
+    width: 80px;
+    right: 18px;
+}
+.emoticones label:hover > #nombreEmoticon1{
+    visibility: visible;
+    width: 80px;
+    background-color:#1a1a1a;
+    color:#ffffff;
+    position: relative;
+    top: -90px;
+    border-radius: 20px;
+    padding: 4px;
+    font-size: 10px;
+    text-align: center;
+    right: 18px;
+    opacity:0.82;
+}
+.emoticones label:hover > #nombreEmoticon2{
+    visibility: visible;
+    width: 80px;
+    background-color:#1a1a1a;
+    color:#ffffff;
+    position: relative;
+    top: -90px;
+    border-radius: 20px;
+    padding: 4px;
+    font-size: 10px;
+    text-align: center;
+    right: 18px;
+    opacity:0.82;
+}
+.emoticones label:hover > #nombreEmoticon3{
+    visibility: visible;
+    width: 80px;
+    background-color:#1a1a1a;
+    color:#ffffff;
+    position: relative;
+    top: -90px;
+    border-radius: 20px;
+    padding: 4px;
+    font-size: 10px;
+    text-align: center;
+    right: 18px;
+    opacity:0.82;
+}
+.emoticones label:hover > #nombreEmoticon4{
+    visibility: visible;
+    width: 80px;
+    background-color:#1a1a1a;
+    color:#ffffff;
+    position: relative;
+    top: -90px;
+    border-radius: 20px;
+    padding: 4px;
+    font-size: 10px;
+    text-align: center;
+    right: 18px;
+    opacity:0.82;
+}
+
+.emoticones label:hover > #nombreEmoticon5{
+    visibility: visible;
+    width: 80px;
+    background-color:#1a1a1a;
+    color:#ffffff;
+    position: relative;
+    top: -90px;
+    border-radius: 20px;
+    padding: 4px;
+    font-size: 10px;
+    text-align: center;
+    right: 18px;
+    opacity:0.82;
+}
+
+
+.emoticones label > input{ 
+    opacity: 0;
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    margin-top: -15px;
+}
+.emoticones label > input + img{ 
+    cursor:pointer;
+    border:2px solid transparent;
+}
+.emoticones label > input:checked + img{ 
+    border:2px solid #fff;
+}
+#calificacionemoticones {
+
+    margin-top: 10px;
+
+}
+
+/* resposive */
+@media only screen and (max-width: 468px) {
+    .emoticones{
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        border: 1px solid #bfbaba66;
+        height: 60px;
+        border-radius: 50px;
+}
+    .emoticones label{
+        float: left;
+        padding: 2px;
+        width: 20%;
+        margin-left: 0;
+
+}
+    }
+    .emoticones label:hover{
+        padding: 2px;
+        width: 20% !important;
+    }
+
+    .emoticones label img{
+    width: 75%;
+}
+
+}
+
+
+/*panel de administracion*/
+
+.contenedor_estadistica{
+    text-align: center;
+}
+#titulo_estadistica{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: #90848b;
+    text-shadow: 2px 0 2px #f4fffd;
+    text-align: center;
+}
+#tabla_estadistica{
+    font-weight:500;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+}
+#tabla_estadistica table{
+    border: 1px dashed #0f0f0f;
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+}
+#tabla_estadistica table tr:hover{
+   background-color: #AED6F1;
+}
+#tituloe{
+    font-weight: bold;
+}
+
+#enlaces {
+    text-align: justify;
+    font-size: 12px;
+}
+#enlaces a{
+    text-decoration: none;
+}
+.meencanta{
+    color:#E74C3C;
+}
+
+.mesorprende{
+    color:#A569BD;
+}
+
+.mealegra{
+    color:#F5B041;
+}
+
+.meentristece{
+    color:#3498DB;
+}
+
+.meenoja{
+    color:#1ABC9C;
+}
+.btn-paginador{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#ffffff;
+    color:#0f0f0f;
+    text-decoration: none;
+}
+#copyright{
+    position: fixed;
+    bottom:30px;
+    font-size: 8px;
+    left: 15%;
+}
+
+#nemoticon{
+  cursor: pointer;
+}
+.ios,
+.ios * {
+    // causes dom events events to be fired
+    cursor: pointer;
+}
