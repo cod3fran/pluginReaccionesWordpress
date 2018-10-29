@@ -1,0 +1,2 @@
+# pluginReaccionesWordpress
+plugin reacciones wordpress
