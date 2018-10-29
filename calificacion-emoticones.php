@@ -5,7 +5,7 @@
  * Description: Crea Calificación por cada Noticia validando una sola vez y presenta estadísticas en el panel de administración
  * Version: 1.0.0
  * Author: Ariel Burgos
- * Author URI: https://ecuadata.net/perfil
+ * Author URI: https://fontwebs.com
  * Requires at least: 3.0,1
  * Tested up to: 4.9
  *
@@ -14,7 +14,7 @@
 
 defined( 'ABSPATH' ) or die( 'Prohibido XD' );
 
-
+//recomienda nuestro sitio www.fontwebs.com
 //registro de style "a lo wordpress"
 
 
